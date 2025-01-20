@@ -4,3 +4,24 @@
 body {
   font-family: sans-serif;
 }
+
+button {
+  background-color: rgb(47, 18, 208);
+  color:white;
+  padding: 15px 25px;
+  font-size: 18px;
+  outline: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 14px #606060;
+}
+
+button:active {
+  background-color: rgb(30, 0, 203);
+  box-shadow: 0 5px #606060;
+  transform: translateY(9px);
+}
+
+button:hover {
+  background-color: rgb(28, 13, 161);
+}

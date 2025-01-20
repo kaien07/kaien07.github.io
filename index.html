@@ -5,7 +5,7 @@
   
   <!-- Information in the <head> element does not appear on the document. This element is usually used to store information used by the document. -->
   <head>
-    <title>The page title shows up in the tab of your browser, and is also used by Google when indexing the page</title>
+    <title>Kaien's Page</title>
     <!-- [meta tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta) contain information about the page, which cannot be represented by other tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -13,6 +13,8 @@
     <meta name="keyword" content="portfolio">  <!-- search engine tags used by Google. Add more of your own. -->
     
     <!-- If you'd like nicer "default" theming for your portfolio, consider using a baseline css stylesheet e.g. https://newcss.net/ -->
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
     <link rel="stylesheet" href="styles.css">  <!-- External CSS for defining your own stylesheet -->
   </head>
   
@@ -23,15 +25,15 @@
     The (optional) <header> HTML element represents introductory content that would usually be shown at the top of every page in a group of pages.
     For example, a logo or top banner, with a navigation bar.
     -->
-    <header></header>
+    <header><h1>Kaien's Page</h1></header>
 
     <!--
     The (optional) <section> element is used to encapsulate standalone sections of content.
     It makes sense to use them for a portfolio, but perhaps not for an essay.
     -->
     <section>
-      <h1>Your Name / About Me</h1>
-      <p>Add a short introduction about yourself here</p>
+      <h1>About Me</h1>
+      <p>I am a J2 student studying in Nanyang Junior College. My primary interests lie in programming and cybersecurity.</p>
     </section>
 
     <section>
@@ -41,9 +43,48 @@
       Use Google / ChatGPT to determine which is the most semantically appropriate element tag to use for each type of content:
       paragraph text, bulleted/numbered lists, tables, images, separators, ...
       -->
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tincidunt risus, sit amet tincidunt sem. Proin nisl eros, vehicula
+        in consectetur id, porta at est. Donec in fringilla purus, ut vulputate purus. Aenean vestibulum pulvinar sollicitudin. Vivamus nec
+        sollicitudin nisl. Suspendisse auctor eros sed orci consectetur feugiat. Nunc pretium, lorem congue luctus imperdiet, tellus ligula
+        placerat justo, eu congue dui enim eu ex.</p>
+
+      <p>Integer vel malesuada mauris. Vivamus malesuada turpis a risus vestibulum feugiat. Duis eu imperdiet ligula. Nam fermentum, quam
+        eget imperdiet ultricies, ligula tortor euismod ligula, vitae suscipit risus sem vitae dui. Vestibulum blandit semper tellus, at
+        porttitor metus. Donec commodo aliquet velit sed mollis. Aliquam bibendum urna ligula, hendrerit efficitur dui pulvinar ut.
+        Vestibulum elementum euismod est sit amet porttitor.</p>
+        
+      <p>Nullam auctor vel erat quis mollis. Suspendisse convallis nibh non ullamcorper facilisis. Mauris quis sodales nisl. Sed a massa id
+        ipsum dapibus sollicitudin. Proin ut leo nibh. In condimentum, justo blandit blandit hendrerit, nisi dui sodales turpis, id porta
+        dolor erat in magna. Praesent aliquam erat id auctor aliquam. Proin ultricies quis ex hendrerit rhoncus. Duis eu nisl nisl. Proin
+        vel est eu est venenatis vulputate et id dolor. Aliquam in neque dapibus, sagittis orci non, condimentum leo. Orci varius natoque
+        penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        
+      <p>Suspendisse elit diam, sollicitudin sit amet suscipit et, scelerisque ac nisl. Nunc lacinia arcu ac arcu sodales, quis euismod
+        neque pharetra. Donec non augue ultricies eros laoreet tempus et non nulla. Vestibulum egestas vulputate eleifend. Nulla tristique
+        lectus augue, et fringilla metus lacinia id. Quisque suscipit viverra tortor, vel egestas elit tincidunt ut. Curabitur non arcu
+        viverra, ullamcorper neque quis, pretium lacus. Donec varius in augue a pulvinar. Nunc luctus, ante fringilla pretium tristique,
+        massa libero ultricies quam, ut sagittis neque justo a nisi. Maecenas sagittis elementum nibh, eu finibus enim cursus sit amet.
+        Pellentesque semper, dolor id eleifend tincidunt, enim orci ullamcorper lacus, non suscipit sem urna nec enim. Duis placerat consequat
+        purus, ac eleifend nisl tincidunt egestas.</p>
     </section>
 
-    <!-- Add more sections for your remaining headers -->
+    <section>
+      <h2>Second Header</h2>
+
+      <details>
+        <summary>What's here?</summary>
+
+        <p><code>print("Hello world!")</code></p>
+
+        <p><code>
+          #include&lt;iostream&gt;
+          int main() {
+            std::cout &lt;&lt; "Hello world!";
+          }
+        </code></p>
+      </details>
+      <button>Free button!</button>
+    </section>
     
     <!--
     The (optional) <footer> HTML element represents content that appears at the bottom of every page in a group of pages.
